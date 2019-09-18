@@ -1,0 +1,20 @@
+{% extends "youtube/layout.html" %}
+
+{% block content %}
+
+
+
+{% for cat in cats %}
+
+<div>
+{{ cat.name }}     
+</div>
+<div>
+{{ cat.color }}
+</div>
+
+
+{% endfor %}
+
+
+{% endblock %}
